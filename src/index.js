@@ -10,7 +10,7 @@ origin = player.getBlockIn();
 // This may throw an exception that is caught by the script processor
 block = context.getBlock(argv[1]);
 const noise = new Noise(1234);
-const size = 10;
+const size = argv[2] || 10;
 const scale = 0.1;
 const magnitude = 10;
 const thickness = 10;
