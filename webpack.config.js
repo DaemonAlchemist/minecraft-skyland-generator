@@ -3,7 +3,7 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const scriptName = "test";
 
 module.exports = {
-    entry: './src/index.js',
+    entry: ['./src/index.js'],
     output: {
         path: `${process.env.APPDATA}/.minecraft/config/worldedit/craftscripts`,
         filename: `${scriptName}.js`
