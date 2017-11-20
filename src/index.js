@@ -43,10 +43,10 @@ const borderHeight = memoize((x, z) =>       _height(x + r4, z + r4, 8,       20
 //Add the blocks
 for(x=-size*2; x<size*2; x++) {
     for(z=-size*2; z<size*2; z++) {
-        const xOffset = x + borderWave(x, z);
-        const zOffset = z + borderWave(x, z);
         const X = origin.x + x;
         const Z = origin.z + z;
+        const xOffset = x + borderWave(X, Z);
+        const zOffset = z + borderWave(X, Z);
         const distFromCenter = Math.sqrt(xOffset*xOffset + zOffset*zOffset);
         const m = (size - distFromCenter) / size;
 
