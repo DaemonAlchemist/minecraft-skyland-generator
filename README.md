@@ -16,6 +16,8 @@ Utilize the power of the modern Javascript ecosystem to script MineCraft.
 ```
 
 ## Dependencies ##
+- [NPM](https://www.npmjs.com/)
+- [NodeJS](https://nodejs.org/en/)
 - [Forge](https://files.minecraftforge.net/)
 - [WorldEdit](https://minecraft.curseforge.com/projects/worldedit)
 - [Rhino](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino)
