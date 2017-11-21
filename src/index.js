@@ -3,10 +3,6 @@ import {Noise} from 'noisejs';
 import memoize from 'memoizee';
 import {sess, origin, clear} from "./atp-minecraft";
 
-let __debug = [];
-const _debug = msg => __debug.push(msg);
-const _printDebug = () => {throw __debug.join("\n");}
-
 // This may throw an exception that is caught by the script processor
 const noise = new Noise(1234);
 const size = (+argv[1]) || 10;
