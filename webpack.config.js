@@ -1,6 +1,7 @@
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const config = require("./src/config.js");
 
-const scriptName = "test";
+const scriptName = config.scriptName;
 
 module.exports = {
     entry: ['./src/index.js'],
