@@ -23,7 +23,7 @@
     "check": "ncu --packageFile package.json",
     "evergreen": "ncu -ua --packageFile package.json"
   },
-  "author": "Andrew Wittrock",
+  "author": "DaemonAlchemist",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
